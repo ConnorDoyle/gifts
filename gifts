@@ -12,7 +12,6 @@ import random
 namesFile = sys.argv[1]
 
 def make_match(name, hat):
-    # result = hat.pop()
     result = random.sample(hat, 1)[0]
     if result == name:
       return make_match(name, hat)
