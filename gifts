@@ -4,7 +4,7 @@
 #
 # $ gifts <names-file>
 #
-# Where <names-file> is the path to a newline-delimited list of names.
+# Where `<names-file>` is the file path to a newline-delimited list of names.
 
 import sys
 import random
